@@ -1,5 +1,8 @@
+/*font-family: "Ubuntu", sans-serif;*/
+font-family: "Barlow", sans-serif;
+
 .container {
-    border:solid 1px #cccc;
-    padding: 16px;
-    margin: 8px;
+  border: solid 1px #cccc;
+  padding: 16px;
+  margin: 8px;
 }
