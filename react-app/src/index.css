@@ -13,6 +13,10 @@ code {
 }
 
 p {
-  font-size: 48px;
-  color: #5389c8;
+  font-family: Inter, -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 160px;
+  font-weight: 800;
+  color: black;
+  margin: 0;
 }

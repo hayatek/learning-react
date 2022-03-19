@@ -5,9 +5,25 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>HELLO REACT</p>
-        <p>React Admin Dashboard Template & UI Components Library</p>
+        <h1>
+          <a href="/">React app</a>
+        </h1>
+        <nav class="pc-nav">
+          <ul>
+            <li>
+              <a href="#">ABOUT</a>
+            </li>
+            <li>
+              <a href="#">SERVICE</a>
+            </li>
+            <li>
+              <a href="#">COMPANY</a>
+            </li>
+            <li>
+              <a href="#">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
       </header>
     </div>
   );
