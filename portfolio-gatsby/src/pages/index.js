@@ -11,10 +11,11 @@ export default function Home() {
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
           <p>web developer</p>
-          <Link className={btn} to="/projects">
+          <Link className={btn} to="/work">
             My Portfolio Projects
           </Link>
         </div>
+        <img src="/banner.png" alt="site banner" style={{ maxWidth: "100%" }} />
       </section>
     </Layout>
   )
