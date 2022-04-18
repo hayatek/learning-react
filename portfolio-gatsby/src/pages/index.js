@@ -11,7 +11,7 @@ export default function Home() {
           {/* <video muted loop autoplay>
             <source src="/stars.mp4" type="video/mp4" />
           </video> */}
-          <video autoPlay loop muted playsInline style={{ width: "100%" }}>
+          <video autoPlay loop muted playsInline>
             <source src="/stars.mp4" />
           </video>
           <h2>Design</h2>
