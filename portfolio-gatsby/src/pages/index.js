@@ -8,12 +8,6 @@ export default function Home() {
     <Layout>
       <section className={header}>
         <div>
-          {/* <video muted loop autoplay>
-            <source src="/stars.mp4" type="video/mp4" />
-          </video> */}
-          <video autoPlay loop muted playsInline>
-            <source src="/stars.mp4" />
-          </video>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
           <p>web developer</p>
@@ -21,7 +15,7 @@ export default function Home() {
             My Portfolio Projects
           </Link>
         </div>
-        {/* <img src="/banner.png" alt="site banner" style={{ maxWidth: "100%" }} /> */}
+        <img src="/banner.png" alt="site banner" style={{ maxWidth: "90%" }} />
       </section>
     </Layout>
   )
